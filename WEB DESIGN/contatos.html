@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1>Artes Marciais</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="produtos.html">Modalidades</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+     <main class="principal">
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" class="input-padrao">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato?</p>
+
+                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="botao"> Email</label>
+                
+                <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="botao"> Telefone</label>
+                
+                <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="botao"> Whatsapp</label>
+            </div>
+
+            <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulário" class="botao">
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="#">Sobre nós</a> | <a href="contatos.html">Contato</a></p>
+    </footer>
+
+</body>
+</html>
